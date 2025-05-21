@@ -1,0 +1,74 @@
+body {
+    background-color: #f0f3e6;
+    color: #333333;
+}
+.navbar {
+    background-color: #dcdfd0 !important;
+}
+.btn-primary {
+    background-color: #eec170 !important;
+    border-color: #eec170 !important;
+    color: #333333 !important;
+}
+.btn-outline-primary {
+    border-color: #eec170 !important;
+    color: #333333 !important;
+}
+.btn-outline-primary:hover {
+    background-color: #eec170 !important;
+    color: #333333 !important;
+}
+.btn-light {
+    background-color: transparent !important;
+    border-color: #dcdfd0 !important;
+    color: #333333 !important;
+}
+.nav-link {
+    color: #333333 !important;
+}
+.nav-link.active {
+    color: #eec170 !important;
+}
+.navbar-brand {
+    color: #333333 !important;
+}
+.underline{
+    text-decoration: underline;
+}
+.user-card {
+    background-color: #dcdfd0;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 150px;
+    text-align: center;
+}
+.user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.status-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+.status-online {
+    background-color: #4CAF50;
+}
+.status-offline {
+    background-color: #9e9e9e;
+}
+.status-busy {
+    background-color: #f44336;
+}
+.map-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 30px;
+}

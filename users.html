@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fabor Habor - Users</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light bg-light px-3">
+            <aside class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="icons/Eye.png" alt="Fabor Habor Logo" height="24" class="me-2">
+                    Fabor Habor
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <section class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Homepage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="groups.html">Groups</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="users.html">Users</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About us</a>
+                        </li>
+                    </ul>
+                    
+                    <section class="d-flex">
+                        <div class="dropdown me-3">
+                            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                Rus/Eng/Kaz
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Russian</a></li>
+                                <li><a class="dropdown-item" href="#">Kazakh</a></li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-outline-primary me-2">Sign in</button>
+                        <button class="btn btn-primary">Sign up</button>
+                    </section>
+                </section>
+            </aside>
+        </nav>
+
+        <main class="container mt-5">
+            <section class="mt-4">
+                <h2>Active users</h2>
+                <section class="d-flex flex-wrap gap-4 mt-3">
+                    <aside class="user-card">
+                        <img src="pictures/ProfileImage1.png" alt="Nikita" class="user-image">
+                        <blockquote>
+                            <span class="status-indicator status-offline"></span>
+                            <span>Nikita</span>
+                        </blockquote>
+                    </aside>
+                    <aside class="user-card">
+                        <img src="pictures/ProfileImage6.png" alt="POTATOM" class="user-image">
+                        <blockquote>
+                            <span class="status-indicator status-online"></span>
+                            <span>POTATOM</span>
+                        </blockquote>
+                    </aside>
+                    <aside class="user-card">
+                        <img src="pictures/ProfileImage5.png" alt="POTATOM2" class="user-image">
+                        <blockquote>
+                            <span class="status-indicator status-busy"></span>
+                            <span>POTATOM2</span>
+                        </blockquote>
+                    </aside>
+                    <aside class="user-card">
+                        <img src="pictures/ProfileImage4.png" alt="Nox Folf" class="user-image">
+                        <blockquote>
+                            <span class="status-indicator status-online"></span>
+                            <span>Nox Folf</span>
+                        </blockquote>
+                    </aside>
+                    <aside class="user-card">
+                        <img src="pictures/ProfileImage3.png" alt="Pazun" class="user-image">
+                        <blockquote>
+                            <span class="status-indicator status-offline"></span>
+                            <span>Pazun</span>
+                        </blockquote>
+                    </aside>
+                    <aside class="user-card">
+                        <img src="pictures/ProfileImage2.png" alt="Pazun" class="user-image">
+                        <blockquote>
+                            <span class="fs-4">More</span>
+                        </blockquote>
+                    </aside>
+                </section>
+            </section>
+            <section>
+                <h2>Map of Almaty</h2>
+                <section class="map-container">
+                    <img src="pictures/map.png" alt="Map of Almaty" class="img-fluid mt-3" style="width: 100%; border-radius: 10px;">
+                </section>
+            </section>
+        </main>
+    </body>
+</html>
